@@ -327,8 +327,8 @@ body {
                             }
 
                             .arrow-filters-container {
+                              
                                 border: 2px solid #DF4E3C;
-
                             }
 
                             &:active {
@@ -339,16 +339,17 @@ body {
 
                                 }
 
-                                .arrow-filters-container {
-                                    border: 2px solid transparent;
+                                // .arrow-filters-container {
+                                //     border: 2px solid transparent;
 
-                                }
+                                // }
                             }
                         }
 
                         @media (max-width: 1400px) {}
 
                         .arrow-filters-container {
+                            border: 2px solid #DF4E3C;
                             color: #F8F8F8;
                             border-radius: 15px;
                             width: 100%;
@@ -923,7 +924,7 @@ body {
     .footer-elem-wrap{
         @media (max-width: 685px) {
             display: flex;
-            flex-direction: column;
+                flex-direction: column;
         }
     }
     .footer-img {

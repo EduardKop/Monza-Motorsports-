@@ -204,9 +204,8 @@ body {
           background-color: #DF4E3C; }
           .product-wrap .product__items .product__items-filters .arrow-filters .arrow-filters-wrap:nth-child(6):hover:active span {
             color: #F8F8F8; }
-          .product-wrap .product__items .product__items-filters .arrow-filters .arrow-filters-wrap:nth-child(6):hover:active .arrow-filters-container {
-            border: 2px solid transparent; }
       .product-wrap .product__items .product__items-filters .arrow-filters .arrow-filters-wrap:nth-child(6) .arrow-filters-container {
+        border: 2px solid #DF4E3C;
         color: #F8F8F8;
         border-radius: 15px;
         width: 100%; }
