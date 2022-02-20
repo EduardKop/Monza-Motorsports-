@@ -1,0 +1,85 @@
+{ 
+    "carsCard":[
+    {
+        "Year":"2019",
+        "Make":"Volkswagen",
+        "Model":"Tiguan",
+        "Trim":"Diesel",
+        "Transmission":"Automatic",
+        "Mileage":"19,855 km",
+        "Price":"$34,888",
+        "img": "Volkswagen_Tiguan.png"
+    },
+    {
+        "Year":"2014",
+        "Make":"Toyota",
+        "Model":"Highlander XLE",
+        "Trim":"Gas",
+        "Transmission":"Automatic",
+        "Mileage":"69,000 km",
+        "Price":"$27,875",
+        "img": "Toyota_Highlander_XLE.png"
+    },
+    {
+        "Year":"2017",
+        "Make":"Lexus",
+        "Model":"RX 350 LUXURY",
+        "Trim":"Gas",
+        "Transmission":"Automatic",
+        "Mileage":"39,850 km",
+        "Price":"$38,775",
+        "img": "Lexus_RX_350_LUXURY.png"
+    },
+    {
+        "Year":"2016",
+        "Make":"Toyota",
+        "Model":"Highlander LE A...",
+        "Trim":"Gas",
+        "Transmission":"Automatic",
+        "Mileage":"104,000 km",
+        "Price":"$23,728",
+        "img": "Toyota_Highlander_LE_A....png"
+    },
+    {
+        "Year":"2017",
+        "Make":"Hyundai",
+        "Model":"Elantra",
+        "Trim":"Gas",
+        "Transmission":"Automatic",
+        "Mileage":"95,000 km",
+        "Price":"$11,788",
+        "img": "Hyundai Elantra.png"
+    },
+    {
+        "Year":"2016",
+        "Make":"Mercedes-Benz",
+        "Model":"GLE-Cl...",
+        "Trim":"Diesel",
+        "Transmission":"Automatic",
+        "Mileage":"59,800 km",
+        "Price":"$38,878",
+        "img": "./img/cars/Mercedes-Benz_GLE-Cl....png"
+    },
+    {
+        "Year":"2015",
+        "Make":"Toyota",
+        "Model":"Venza AWD XLE...",
+        "Trim":"Gas",
+        "Transmission":"Automatic",
+        "Mileage":"99,000 km",
+        "Price":"$18,620",
+        "img": "Toyota_Venza_AWD_XLE....png"
+    },
+    {
+        "Year":"2016",
+        "Make":"Lexus",
+        "Model":"RX 350 F-SPORT",
+        "Trim":"Gas",
+        "Transmission":"Automatic",
+        "Mileage":"86,000 km",
+        "Price":"$34,888",
+        "img": "Lexus_RX_350_F-SPORT.png"
+    }
+]
+}
+    
