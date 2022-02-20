@@ -73,7 +73,9 @@ body {
       @media (max-width: 576px) {
         .header-wrap .header-wrap-info .header-wrap-info__btn {
           display: flex;
-          justify-content: center; } }
+          justify-content: center;
+          margin-top: 0px;
+          padding-top: 50px; } }
       .header-wrap .header-wrap-info .header-wrap-info__btn input {
         padding-left: 100px;
         padding-right: 100px;
@@ -90,9 +92,6 @@ body {
           .header-wrap .header-wrap-info .header-wrap-info__btn input:hover:active {
             background-color: transparent;
             color: #F8F8F8; }
-      @media (max-width: 576px) {
-        .header-wrap .header-wrap-info .header-wrap-info__btn {
-          margin-top: 150px; } }
 
 .product-wrap {
   padding-top: 98px;
@@ -257,6 +256,17 @@ body {
       /* Show the checkmark when checked */
       /* Style the checkmark/indicator */
       margin-top: 25px; }
+      @media (max-width: 415px) {
+        .product-wrap .product__items .second-filters .second-filters-wrap-SortBy {
+          margin-left: 0px;
+          padding-left: 0px;
+          display: flex;
+          flex-wrap: nowrap;
+          justify-content: center; }
+        .product-wrap .product__items .second-filters .second-filters-wrap {
+          display: flex;
+          flex-wrap: nowrap;
+          justify-content: center; } }
       .product-wrap .product__items .second-filters .label-container {
         display: flex;
         position: relative;

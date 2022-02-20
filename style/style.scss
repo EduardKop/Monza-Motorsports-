@@ -130,7 +130,9 @@ body {
             @media (max-width: 576px) {
                 display: flex;
                 justify-content: center;
-            }
+                margin-top: 0px;
+                padding-top: 50px;
+            }            
 
             padding-top: 85px;
             padding-bottom: 20px;
@@ -157,9 +159,6 @@ body {
                 background-color: transparent;
             }
 
-            @media (max-width: 576px) {
-                margin-top: 150px;
-            }
 
 
         }
@@ -421,6 +420,21 @@ body {
         }
 
         .second-filters {
+           
+                @media (max-width: 415px) {
+                    .second-filters-wrap-SortBy{
+                        margin-left: 0px;
+    padding-left: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+                    }
+                    .second-filters-wrap{
+                display: flex;
+                flex-wrap: nowrap;
+                justify-content: center;
+                }
+            }
             .label-container {
                 display: flex;
                 position: relative;
@@ -479,6 +493,7 @@ body {
               .checkmark:after {
                 content: "";
                 position: absolute;
+                
               }
               
               /* Show the checkmark when checked */
