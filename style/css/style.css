@@ -12,7 +12,7 @@ body {
   color: #F8F8F8; }
   @media (max-width: 576px) {
     .header-wrap {
-      height: 900px; } }
+      min-height: 900px; } }
   .header-wrap header .navbar {
     padding-top: 14px; }
   .header-wrap header .navbar-toggler {
@@ -642,7 +642,9 @@ body {
   .footer .footer-socials {
     display: flex;
     justify-content: flex-end;
-    margin-top: 37px; }
+    margin-top: 37px;
+    margin-left: 0px;
+    padding-left: 0px; }
     .footer .footer-socials li {
       list-style-type: none; }
     .footer .footer-socials .list-item:first-child {

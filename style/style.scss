@@ -18,7 +18,7 @@ body {
     color: $color-primary-200;
 
     @media (max-width: 576px) {
-        height: 900px;
+        min-height: 900px;
 
     }
 
@@ -1049,7 +1049,8 @@ body {
         display: flex;
         justify-content: flex-end;
         margin-top: 37px;
-
+        margin-left: 0px;
+        padding-left: 0px;
         li {
             list-style-type: none;
         }
