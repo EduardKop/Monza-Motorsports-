@@ -249,7 +249,65 @@ body {
       margin-right: 3px;
       border-radius: 1px; }
     .product-wrap .product__items .second-filters {
+      /* Hide the browser's default checkbox */
+      /* Create a custom checkbox */
+      /* On mouse-over, add a grey background color */
+      /* When the checkbox is checked, add a blue background */
+      /* Create the checkmark/indicator (hidden when not checked) */
+      /* Show the checkmark when checked */
+      /* Style the checkmark/indicator */
       margin-top: 25px; }
+      .product-wrap .product__items .second-filters .label-container {
+        display: flex;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        font-size: 22px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none; }
+        .product-wrap .product__items .second-filters .label-container .text {
+          color: #8D8D8D;
+          font-size: 15px; }
+      .product-wrap .product__items .second-filters .label-container input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0; }
+      .product-wrap .product__items .second-filters .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 20px;
+        width: 20px;
+        background-color: transparent;
+        border: 2px solid #8D8D8D;
+        border-radius: 5px; }
+      .product-wrap .product__items .second-filters .label-container:hover input ~ .checkmark {
+        border: 2px solid #8D8D8D;
+        border-radius: 5px; }
+      .product-wrap .product__items .second-filters .label-container input:checked ~ .checkmark {
+        background-color: #DE4E3C;
+        border: 2px solid #DE4E3C; }
+      .product-wrap .product__items .second-filters .checkmark:after {
+        content: "";
+        position: absolute; }
+      .product-wrap .product__items .second-filters .label-container input:checked ~ .checkmark:after {
+        display: block; }
+      .product-wrap .product__items .second-filters .label-container .checkmark:after {
+        left: 6px;
+        top: 3px;
+        width: 4px;
+        height: 8px;
+        border: solid white;
+        border-width: 0 1px 1px 0;
+        -webkit-transform: rotate(45deg);
+        display: flex;
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg); }
       @media (max-width: 575px) {
         .product-wrap .product__items .second-filters .second-filters-checkbox {
           display: flex;
