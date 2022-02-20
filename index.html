@@ -1,0 +1,1167 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- Local CSS -->
+  <link rel="stylesheet" href="./style/css/style.css">
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Poppins:wght@100;200;300&display=swap" rel="stylesheet">
+  <title>Monza Motorsports</title>
+</head>
+
+<body>
+
+  <div class="header-wrap">
+    <header>
+      <div class="container navbar-container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#"><img src="./img/header-logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" href="#">Inventory</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Financing </a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Contacts</a></li>
+              <li class="nav-item"><a class="nav-link" href="#"><img src="./img/facebook.png" alt=""></a></li>
+              <li class="nav-item"><a class="nav-link" href="#"><img src="./img/instagram.png" alt=""></a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    
+    <div class="header-wrap-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-sm-12">
+            <div class="header-wrap-info__title">
+              <h1>The right way to get a car</h1>
+            </div>
+            <div class="head-wrap__description">
+              <div class="description-item">
+                <p>Monza Motorsports is a boutique-style dealership specializing in premium imports. We offer an
+                  advanced online vehicle purchasing experience with integrated financing and contactless home delivery.
+                </p>
+              </div>
+              <div class="description-item">
+                <p>All of our cars come with a 5 day/500 kilometres no-hassle exchange option. Since 2012 Monza
+                  Motorsports
+                  has been the benchmark for innovation in the automotive industry.</p>
+
+              </div>
+            </div>
+
+            <div class="header-wrap-info__btn">
+              <input type="button" value="Browse Cars">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="product-wrap">
+    <div class="product__name">
+      <div class="container">
+        <h1>CURRENT OFFERS</h1>
+      </div>
+    </div>
+    <div class="product__items">
+      <div class="product__items-filters">
+        <div class="container arrow-filters">
+          <div class="row">
+            <div class="col-lg-2 col-md-3 arrow-filters-wrap">
+              <div class="dropdown">
+                <div class='wrap'>
+                  <button class="dropbtn myDropdownYears"><span class="btn-name name-year">Year</span>
+                    <div class='arrow arrow-bottom'></div>
+                  </button>
+                </div>
+                <div id="Years" class="dropdown-content year">
+                  <button class="content-item item-year" value="2014">2014</button>
+                  <button class="content-item item-year" value="2015">2015</button>
+                  <button class="content-item item-year" value="2016">2016</button>
+                  <button class="content-item item-year" value="2017">2017</button>
+                  <button class="content-item item-year" value="2018">2018</button>
+                  <button class="content-item item-year" value="2019">2019</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 arrow-filters-wrap">
+              <div class="dropdown">
+                <div class='wrap'>
+                  <button class="dropbtn myDropdownMake"><span class="btn-name name-warn">Make</span>
+                    <div class='arrow arrow-bottom'></div>
+                  </button>
+                </div>
+                <div id="Make" class="dropdown-content">
+                  <button class="content-item item-warn">Volkswagen</button>
+                  <button class="content-item item-warn">Toyota</button>
+                  <button class="content-item item-warn">Lexus</button>
+                  <button class="content-item item-warn">Hyundai</button>
+                  <button class="content-item item-warn">Mercedes</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-2 arrow-filters-wrap">
+              <div class="dropdown">
+                <div class='wrap'>
+                  <button class="dropbtn myDropdownModel"><span class="btn-name name-model">Model</span>
+                    <div class='arrow arrow-bottom'></div>
+                  </button>
+                </div>
+                <div id="model" class="dropdown-content">
+                  <button class="content-item item-model">Tiguan</button>
+                  <button class="content-item item-model">Highlander XLE</button>
+                  <button class="content-item item-model">RX 350 LUXURY</button>
+                  <button class="content-item item-model">Highlander LE A...</button>
+                  <button class="content-item item-model">Elantra</button>
+                  <button class="content-item item-model">GLE-Cl...</button>
+                  <button class="content-item item-model">AWD XLE...</button>
+                  <button class="content-item item-model">RX 350 F-SPORT</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-2 arrow-filters-wrap">
+              <div class="dropdown">
+                <div class='wrap'>
+                  <button class="dropbtn myDropdownTrim"><span class="btn-name name-trim">Trim</span>
+                    <div class='arrow arrow-bottom'></div>
+                  </button>
+                </div>
+                <div id="trim" class="dropdown-content">
+                  <button class="content-item item-trim">Diesel</button>
+                  <button class="content-item item-trim">Gas</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2  col-md-2 arrow-filters-wrap">
+              <div class="dropdown">
+                <div class='wrap'>
+                  <button class="dropbtn myDropdownMileage"><span class="btn-name name-mileage">Mileage</span>
+                    <div class='arrow arrow-bottom'></div>
+                  </button>
+                </div>
+                <div id="mileage" class="dropdown-content">
+                  <button class="content-item item-mileage">19,855 km</button>
+                  <button class="content-item item-mileage">69,000 km</button>
+                  <button class="content-item item-mileage">39,850 km</button>
+                  <button class="content-item item-mileage">104,000 km</button>
+                  <button class="content-item item-mileage">95,000 km</button>
+                  <button class="content-item item-mileage">59,800 km</button>
+                  <button class="content-item item-mileage">99,000 km</button>
+                  <button class="content-item item-mileage">86,000 km</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 .col-md-4 .offset-md-4 arrow-filters-wrap last-btn result-filter-btn">
+              <div class="arrow-filters-container">
+                <button class="arrow-filters-btn btn btn-secondary sorting-btn" type="button">
+                  <span class="sorting-btn-text">22 cars</span>
+                </button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container second-filters">
+          <div class="row">
+            <div class="col-lg-6 col-md-4 col-sm-4">
+              <div class="second-filters-checkbox">
+                <label class="lable">
+                  <input type="checkbox" class="checkbox second-filters-checkbox-input">
+                  <span class="secondCheckbox"></span>
+                  <span class="text">Instantly available vehicles</span>
+                </label>
+                <!-- <p>Instantly available vehicles</p> -->
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-8 col-sm-8 ">
+              <div class="second-filter-sort">
+                <p>Sort by</p>
+                <img src="./img/sortpng.png" alt="">
+                <div class="dropdown dropdown-sortBy-Wrap">
+                  <button class="btn btn-secondary dropdown-toggle sort-by" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="sortBy-name">Publication date (ascending)</span>
+                  </button>
+                  <div class="dropdown-menu dropdown-sortBy" aria-labelledby="dropdownMenuButton">
+                    <button class="dropdown-item">Publication date (descending)</button>
+                    <button class="dropdown-item">Price (ascending)</button>
+                    <button class="dropdown-item">Price (descending)</button>
+                    <button class="dropdown-item">Mileage (ascending)</button>
+                    <button class="dropdown-item">Mileage (descending)</button>
+                    <button class="dropdown-item">Performance (ascending)</button>
+                    <button class="dropdown-item">Performance (descending)</button>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="product__items-cards">
+        <div class="container">
+          <div class="row items-cards__line">
+            <div class="col-lg-3 items-cards__elem ">
+              <div class="items-cards__elem-content">
+                <div class="elem-content-img">
+                  <img src="./img/cars/Volkswagen_Tiguan.png" alt="">
+                  <div class="soldImg">
+                    <h1>SOLD</h1>
+                  </div>
+                </div>
+                <div class="elem-content-detail 2019">
+                  <div class="detail-name">
+                    <span class="car_year">2019</span>
+                    <span class="car_name"><span class='car_name-Make'>Volkswagen</span> <span
+                        class='car_name-Make-Model'>Tiguan</span></span>
+
+                  </div>
+                  <div class="detail-specificatiosn">
+                    <span class="car_km">19,855 km</span>
+                    <div class="line"></div>
+                    <span class="car_type">Automatic</span>
+                    <div class="line"></div>
+                    <span class="car_fuel">Diesel</span>
+                  </div>
+                  <div class="elem-content-price">
+                    <span class="car_price">$34,888</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-lg-3 items-cards__elem">
+              <div class="items-cards__elem-content">
+                <div class="elem-content-img">
+                  <img src="./img/cars/Toyota_Highlander_XLE.png" alt="">
+                  <div class="soldImg">
+                    <h1>SOLD</h1>
+                  </div>
+                </div>
+                <div class="elem-content-detail 2014">
+                  <div class="detail-name">
+                    <span class="car_year">2014</span>
+                    <span class="car_name"><span class='car_name-Make'>Toyota</span> 
+                    <span class='car_name-Make-Model'>Highlander XLE</span></span>
+
+                  </div>
+                  <div class="detail-specificatiosn">
+                    <span class="car_km">69,000 km</span>
+                    <div class="line"></div>
+                    <span class="car_type">Automatic</span>
+                    <div class="line"></div>
+                    <span class="car_fuel">Gas</span>
+                  </div>
+                  <div class="elem-content-price">
+                    <span class="car_price">$27,875</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-lg-3 items-cards__elem">
+              <div class="items-cards__elem-content">
+                <div class="elem-content-img">
+                  <img src="./img/cars/Lexus_RX_350_LUXURY.png" alt="">
+                  <div class="soldImg">
+                    <h1>SOLD</h1>
+                  </div>
+                </div>
+                <div class="elem-content-detail 2017">
+                  <div class="detail-name">
+                    <span class="car_year">2017</span>
+                    <span class="car_name"><span class='car_name-Make'>Lexus</span> <span class='car_name-Make-Model'>RX
+                        350 LUXURY</span></span>
+
+                  </div>
+                  <div class="detail-specificatiosn">
+                    <span class="car_km">39,850 km</span>
+                    <div class="line"></div>
+                    <span class="car_type">Automatic</span>
+                    <div class="line"></div>
+                    <span class="car_fuel">Gas</span>
+                  </div>
+                  <div class="elem-content-price">
+                    <span class="car_price">$38,775</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-lg-3 items-cards__elem">
+              <div class="items-cards__elem-content">
+                <div class="elem-content-img">
+                  <img src="./img/cars/Toyota_Highlander_LE_A....png" alt="">
+                  <div class="soldImg">
+                    <h1>SOLD</h1>
+                  </div>
+                </div>
+                <div class="elem-content-detail 2016">
+                  <div class="detail-name">
+                    <span class="car_year">2016</span>
+                    <span class="car_name"><span class='car_name-Make'>Toyota</span> <span
+                        class='car_name-Make-Model'>Highlander LE A...</span></span>
+
+                  </div>
+                  <div class="detail-specificatiosn">
+                    <span class="car_km">104,000 km</span>
+                    <div class="line"></div>
+                    <span class="car_type">Automatic</span>
+                    <div class="line"></div>
+                    <span class="car_fuel">Gas</span>
+                  </div>
+                  <div class="elem-content-price">
+                    <span class="car_price">$23,728</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-lg-3 items-cards__elem">
+              <div class="items-cards__elem-content">
+                <div class="elem-content-img">
+                  <img src="./img/cars/Hyundai_Elantra.png" alt="">
+                  <div class="soldImg">
+                    <h1>SOLD</h1>
+                  </div>
+                </div>
+                <div class="elem-content-detail ">
+                  <div class="detail-name">
+                    <span class="car_year">2017</span>
+                    <span class="car_name"><span class='car_name-Make'>Hyundai</span> <span
+                        class='car_name-Make-Model'>Elantra</span></span>
+
+                  </div>
+                  <div class="detail-specificatiosn">
+                    <span class="car_km">95,000 km</span>
+                    <div class="line"></div>
+                    <span class="car_type">Automatic</span>
+                    <div class="line"></div>
+                    <span class="car_fuel">Gas</span>
+                  </div>
+                  <div class="elem-content-price">
+                    <span class="car_price">$11,788</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-lg-3 items-cards__elem">
+              <div class="items-cards__elem-content">
+                <div class="elem-content-img">
+                  <img src="./img/cars/Mercedes-Benz_GLE-Cl....png" alt="">
+                  <div class="soldImg">
+                    <h1>SOLD</h1>
+                  </div>
+                </div>
+                <div class="elem-content-detail">
+                  <div class="detail-name">
+                    <span class="car_year">2016</span>
+                    <span class="car_name"><span class='car_name-Make'>Mercedes-Benz</span> <span
+                        class='car_name-Make-Model'>GLE-Cl...</span></span>
+                  </div>
+                  <div class="detail-specificatiosn">
+                    <span class="car_km">59,800 km</span>
+                    <div class="line"></div>
+                    <span class="car_type">Automatic</span>
+                    <div class="line"></div>
+                    <span class="car_fuel">Diesel</span>
+                  </div>
+                  <div class="elem-content-price">
+                    <span class="car_price">$38,878</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-lg-3 items-cards__elem sold">
+              <div class="items-cards__elem-content">
+                <div class="elem-content-img">
+                  <img src="./img/cars/Toyota_Venza_AWD_XLE....png" alt="">
+                  <div class="soldImg">
+                    <h1>SOLD</h1>
+                  </div>
+                  <div class="soldImg">
+                    <h1>SOLD</h1>
+                  </div>
+                </div>
+                <div class="elem-content-detail">
+                  <div class="detail-name">
+                    <span class="car_year">2015</span>
+                    <span class="car_name"><span class='car_name-Make'>Toyota</span> <span
+                        class='car_name-Make-Model'>AWD XLE...</span></span>
+
+                  </div>
+                  <div class="detail-specificatiosn">
+                    <span class="car_km">99,000 km</span>
+                    <div class="line"></div>
+                    <span class="car_type">Automatic</span>
+                    <div class="line"></div>
+                    <span class="car_fuel">Gas</span>
+                  </div>
+                  <div class="elem-content-price">
+                    <span class="car_price">$18,620</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-lg-3 items-cards__elem">
+              <div class="items-cards__elem-content">
+                <div class="elem-content-img">
+                  <img src="./img/cars/Lexus_RX_350_F-SPORT.png" alt="">
+                  <div class="soldImg">
+                    <h1>SOLD</h1>
+                  </div>
+                </div>
+                <div class="elem-content-detail">
+                  <div class="detail-name">
+                    <span class="car_year">2016</span>
+                    <span class="car_name"><span class='car_name-Make'>Lexus</span> <span class='car_name-Make-Model'>RX
+                        350 F-SPORT</span></span>
+
+                  </div>
+                  <div class="detail-specificatiosn">
+                    <span class="car_km">86,000 km</span>
+                    <div class="line"></div>
+                    <span class="car_type">Automatic</span>
+                    <div class="line"></div>
+                    <span class="car_fuel">Gas</span>
+                  </div>
+                  <div class="elem-content-price">
+                    <span class="car_price">$34,888</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-lg-3 items-cards__elem">
+              <div class="items-cards__elem-content">
+                <div class="elem-content-img">
+                  <img src="./img/cars/Volkswagen_Tiguan.png" alt="">
+                  <div class="soldImg">
+                    <h1>SOLD</h1>
+                  </div>
+                </div>
+                <div class="elem-content-detail">
+                  <div class="detail-name">
+                    <span class="car_year">2019</span>
+                    <span class="car_name"><span class='car_name-Make'>Volkswagen</span> <span
+                        class='car_name-Make-Model'>Tiguan</span></span>
+
+                  </div>
+                  <div class="detail-specificatiosn">
+                    <span class="car_km">19,855 km</span>
+                    <div class="line"></div>
+                    <span class="car_type">Automatic</span>
+                    <div class="line"></div>
+                    <span class="car_fuel">Diesel</span>
+                  </div>
+                  <div class="elem-content-price">
+                    <span class="car_price">$34,888</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-lg-3 items-cards__elem">
+              <div class="items-cards__elem-content">
+                <div class="elem-content-img">
+                  <img src="./img/cars/Toyota_Highlander_XLE.png" alt="">
+                  <div class="soldImg">
+                    <h1>SOLD</h1>
+                  </div>
+                </div>
+                <div class="elem-content-detail">
+                  <div class="detail-name">
+                    <span class="car_year">2014</span>
+                    <span class="car_name"><span class='car_name-Make'>Toyota</span> <span
+                        class='car_name-Make-Model'>Highlander XLE</span></span>
+
+                  </div>
+                  <div class="detail-specificatiosn">
+                    <span class="car_km">69,000 km</span>
+                    <div class="line"></div>
+                    <span class="car_type">Automatic</span>
+                    <div class="line"></div>
+                    <span class="car_fuel">Gas</span>
+                  </div>
+                  <div class="elem-content-price">
+                    <span class="car_price">$27,875</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-lg-3 items-cards__elem">
+              <div class="items-cards__elem-content">
+                <div class="elem-content-img">
+                  <img src="./img/cars/Lexus_RX_350_LUXURY.png" alt="">
+                  <div class="soldImg">
+                    <h1>SOLD</h1>
+                  </div>
+                </div>
+                <div class="elem-content-detail">
+                  <div class="detail-name">
+                    <span class="car_year">2017</span>
+                    <span class="car_name"><span class='car_name-Make'>Lexus</span> <span class='car_name-Make-Model'>RX
+                        350 LUXURY</span></span>
+
+                  </div>
+                  <div class="detail-specificatiosn">
+                    <span class="car_km">39,850 km</span>
+                    <div class="line"></div>
+                    <span class="car_type">Automatic</span>
+                    <div class="line"></div>
+                    <span class="car_fuel">Gas</span>
+                  </div>
+                  <div class="elem-content-price">
+                    <span class="car_price">$38,775</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-lg-3 items-cards__elem">
+              <div class="items-cards__elem-content">
+                <div class="elem-content-img">
+                  <img src="./img/cars/Toyota_Highlander_LE_A....png" alt="">
+                  <div class="soldImg">
+                    <h1>SOLD</h1>
+                  </div>
+                </div>
+                <div class="elem-content-detail">
+                  <div class="detail-name">
+                    <span class="car_year">2016</span>
+                    <span class="car_name"><span class='car_name-Make'>Toyota</span> <span
+                        class='car_name-Make-Model'>Highlander LE A...</span></span>
+
+                  </div>
+                  <div class="detail-specificatiosn">
+                    <span class="car_km">104,000 km</span>
+                    <div class="line"></div>
+                    <span class="car_type">Automatic</span>
+                    <div class="line"></div>
+                    <span class="car_fuel">Gas</span>
+                  </div>
+                  <div class="elem-content-price">
+                    <span class="car_price">$23,728</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-lg-3 items-cards__elem">
+              <div class="items-cards__elem-content">
+                <div class="elem-content-img">
+                  <img src="./img/cars/Volkswagen_Tiguan.png" alt="">
+                  <div class="soldImg">
+                    <h1>SOLD</h1>
+                  </div>
+                </div>
+                <div class="elem-content-detail">
+                  <div class="detail-name">
+                    <span class="car_year">2019</span>
+                    <span class="car_name"><span class='car_name-Make'>Volkswagen</span> <span
+                        class='car_name-Make-Model'>Tiguan</span></span>
+
+                  </div>
+                  <div class="detail-specificatiosn">
+                    <span class="car_km">19,855 km</span>
+                    <div class="line"></div>
+                    <span class="car_type">Automatic</span>
+                    <div class="line"></div>
+                    <span class="car_fuel">Diesel</span>
+                  </div>
+                  <div class="elem-content-price">
+                    <span class="car_price">$34,888</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-lg-3 items-cards__elem">
+              <div class="items-cards__elem-content">
+                <div class="elem-content-img">
+                  <img src="./img/cars/Toyota_Highlander_XLE.png" alt="">
+                  <div class="soldImg">
+                    <h1>SOLD</h1>
+                  </div>
+                </div>
+                <div class="elem-content-detail">
+                  <div class="detail-name">
+                    <span class="car_year">2014</span>
+                    <span class="car_name"><span class='car_name-Make'>Toyota</span> <span
+                        class='car_name-Make-Model'>Highlander XLE</span></span>
+
+                  </div>
+                  <div class="detail-specificatiosn">
+                    <span class="car_km">69,000 km</span>
+                    <div class="line"></div>
+                    <span class="car_type">Automatic</span>
+                    <div class="line"></div>
+                    <span class="car_fuel">Gas</span>
+                  </div>
+                  <div class="elem-content-price">
+                    <span class="car_price">$27,875</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-lg-3 items-cards__elem">
+              <div class="items-cards__elem-content">
+                <div class="elem-content-img">
+                  <img src="./img/cars/Lexus_RX_350_LUXURY.png" alt="">
+                  <div class="soldImg">
+                    <h1>SOLD</h1>
+                  </div>
+                </div>
+                <div class="elem-content-detail">
+                  <div class="detail-name">
+                    <span class="car_year">2017</span>
+                    <span class="car_name"><span class='car_name-Make'>Lexus</span> <span class='car_name-Make-Model'>RX
+                        350 LUXURY</span></span>
+
+                  </div>
+                  <div class="detail-specificatiosn">
+                    <span class="car_km">39,850 km</span>
+                    <div class="line"></div>
+                    <span class="car_type">Automatic</span>
+                    <div class="line"></div>
+                    <span class="car_fuel">Gas</span>
+                  </div>
+                  <div class="elem-content-price">
+                    <span class="car_price">$38,775</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-lg-3 items-cards__elem">
+              <div class="items-cards__elem-content">
+                <div class="elem-content-img">
+                  <img src="./img/cars/Toyota_Highlander_LE_A....png" alt="">
+                  <div class="soldImg">
+                    <h1>SOLD</h1>
+                  </div>
+                </div>
+                <div class="elem-content-detail">
+                  <div class="detail-name">
+                    <span class="car_year">2016</span>
+                    <span class="car_name"><span class='car_name-Make'>Toyota</span> <span
+                        class='car_name-Make-Model'>Highlander LE A...</span></span>
+
+                  </div>
+                  <div class="detail-specificatiosn">
+                    <span class="car_km">104,000 km</span>
+                    <div class="line"></div>
+                    <span class="car_type">Automatic</span>
+                    <div class="line"></div>
+                    <span class="car_fuel">Gas</span>
+                  </div>
+                  <div class="elem-content-price">
+                    <span class="car_price">$23,728</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-lg-3 items-cards__elem">
+              <div class="items-cards__elem-content">
+                <div class="elem-content-img">
+                  <img src="./img/cars/Hyundai_Elantra.png" alt="">
+                  <div class="soldImg">
+                    <h1>SOLD</h1>
+                  </div>
+                </div>
+                <div class="elem-content-detail">
+                  <div class="detail-name">
+                    <span class="car_year">2017</span>
+                    <span class="car_name"><span class='car_name-Make'>Hyundai</span> <span
+                        class='car_name-Make-Model'>Elantra</span></span>
+
+                  </div>
+                  <div class="detail-specificatiosn">
+                    <span class="car_km">95,000 km</span>
+                    <div class="line"></div>
+                    <span class="car_type">Automatic</span>
+                    <div class="line"></div>
+                    <span class="car_fuel">Gas</span>
+                  </div>
+                  <div class="elem-content-price">
+                    <span class="car_price">$11,788</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-lg-3 items-cards__elem">
+              <div class="items-cards__elem-content">
+                <div class="elem-content-img">
+                  <img src="./img/cars/Mercedes-Benz_GLE-Cl....png" alt="">
+                  <div class="soldImg">
+                    <h1>SOLD</h1>
+                  </div>
+                </div>
+                <div class="elem-content-detail">
+                  <div class="detail-name">
+                    <span class="car_year">2016</span>
+                    <span class="car_name"><span class='car_name-Make'>Mercedes-Benz</span> <span
+                        class='car_name-Make-Model'>GLE-Cl...</span></span>
+
+                  </div>
+                  <div class="detail-specificatiosn">
+                    <span class="car_km">59,800 km</span>
+                    <div class="line"></div>
+                    <span class="car_type">Automatic</span>
+                    <div class="line"></div>
+                    <span class="car_fuel">Diesel</span>
+                  </div>
+                  <div class="elem-content-price">
+                    <span class="car_price">$38,878</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-lg-3 items-cards__elem">
+              <div class="items-cards__elem-content">
+                <div class="elem-content-img">
+                  <img src="./img/cars/Toyota_Venza_AWD_XLE....png" alt="">
+                  <div class="soldImg">
+                    <h1>SOLD</h1>
+                  </div>
+                </div>
+                <div class="elem-content-detail">
+                  <div class="detail-name">
+                    <span class="car_year">2015</span>
+                    <span class="car_name"><span class='car_name-Make'>Toyota</span> <span
+                        class='car_name-Make-Model'>Venza AWD XLE...</span></span>
+
+                  </div>
+                  <div class="detail-specificatiosn">
+                    <span class="car_km">99,000 km</span>
+                    <div class="line"></div>
+                    <span class="car_type">Automatic</span>
+                    <div class="line"></div>
+                    <span class="car_fuel">Gas</span>
+                  </div>
+                  <div class="elem-content-price">
+                    <span class="car_price">$18,620</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-lg-3 items-cards__elem">
+              <div class="items-cards__elem-content">
+                <div class="elem-content-img">
+                  <img src="./img/cars/Lexus_RX_350_F-SPORT.png" alt="">
+                  <div class="soldImg">
+                    <h1>SOLD</h1>
+                  </div>
+                </div>
+                <div class="elem-content-detail">
+                  <div class="detail-name">
+                    <span class="car_year">2016</span>
+                    <span class="car_name"><span class='car_name-Make'>Lexus</span> <span class='car_name-Make-Model'>RX
+                        350 F-SPORT</span></span>
+
+                  </div>
+                  <div class="detail-specificatiosn">
+                    <span class="car_km">86,000 km</span>
+                    <div class="line"></div>
+                    <span class="car_type">Automatic</span>
+                    <div class="line"></div>
+                    <span class="car_fuel">Gas</span>
+                  </div>
+                  <div class="elem-content-price">
+                    <span class="car_price">$34,888</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-lg-3 items-cards__elem">
+              <div class="items-cards__elem-content">
+                <div class="elem-content-img">
+                  <img src="./img/cars/Toyota_Highlander_XLE.png" alt="">
+                  <div class="soldImg">
+                    <h1>SOLD</h1>
+                  </div>
+                </div>
+                <div class="elem-content-detail">
+                  <div class="detail-name">
+                    <span class="car_year">2014</span>
+                    <span class="car_name"><span class='car_name-Make'>Toyota</span> <span
+                        class='car_name-Make-Model'>Highlander XLE</span></span>
+
+                  </div>
+                  <div class="detail-specificatiosn">
+                    <span class="car_km">69,000 km</span>
+                    <div class="line"></div>
+                    <span class="car_type">Automatic</span>
+                    <div class="line"></div>
+                    <span class="car_fuel">Gas</span>
+                  </div>
+                  <div class="elem-content-price">
+                    <span class="car_price">$27,875</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-lg-3 items-cards__elem">
+              <div class="items-cards__elem-content">
+                <div class="elem-content-img">
+                  <img src="./img/cars/Lexus_RX_350_LUXURY.png" alt="">
+                  <div class="soldImg">
+                    <h1>SOLD</h1>
+                  </div>
+                </div>
+                <div class="elem-content-detail">
+                  <div class="detail-name">
+                    <span class="car_year">2017</span>
+                    <span class="car_name"><span class='car_name-Make'>Lexus</span> <span class='car_name-Make-Model'>RX
+                        350 LUXURY</span></span>
+
+                  </div>
+                  <div class="detail-specificatiosn">
+                    <span class="car_km">39,850 km</span>
+                    <div class="line"></div>
+                    <span class="car_type">Automatic</span>
+                    <div class="line"></div>
+                    <span class="car_fuel">Gas</span>
+                  </div>
+                  <div class="elem-content-price">
+                    <span class="car_price">$38,775</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="subscribe">
+    <div class="container">
+      <div class="row">
+        <div class="subscribe-textInfo col-lg-5">
+          <div class="textInfo-container">
+            <span class="textInfo-header">Haven't found a suitable vehicle?</span>
+            <span class="textInfo-dsrb">Sign up for our newsletter and be the first to know when we publish new vehicle
+              offers.
+            </span>
+          </div>
+        </div>
+        <div class="subscribe-input col-lg-5">
+          <div class="input-elem">
+            <input class="email-input" type="text" placeholder='Enter your email'>
+            <span class="email-incorect-text">Incorrect email</span>
+          </div>
+        </div>
+        <div class="subscribe-btn col-lg-2">
+          <div class="email__btn-wrapper">
+            <button class="email__btn">Subscribe now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="question">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="question-header">
+            <h1>
+              POPULAR QUESTIONS
+            </h1>
+          </div>
+        </div>
+      </div>
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              1. Scope
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <div class="accordion-collapse-name" data-bs-target="#flush-collapseOne" data-bs-toggle="collapse">
+                <span class="accordion-collapse-name_wrap">1. Scope </span>
+                <span class="accordion-collapse-name_close">-</span>
+              </div><br>
+              Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code>
+              class. This is the first item's accordion body.
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              2. Vehicle characteristics
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <div class="accordion-collapse-name" data-bs-target="#flush-collapseTwo" 
+                data-bs-toggle="collapse">
+                <span class="accordion-collapse-name_wrap">2. Vehicle characteristics </span>
+                <span class="accordion-collapse-name_close">-</span>
+              </div><br>
+              Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code>
+              class. This is the first item's accordion body.
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwoThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              3. Warranty / guarantee
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingTwoThree"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <div class="accordion-collapse-name" data-bs-target="#flush-collapseThree"
+                data-bs-toggle="collapse">
+                <span class="accordion-collapse-name_wrap">3. Warranty / guarantee </span>
+                <span class="accordion-collapse-name_close">-</span>
+              </div><br>
+              Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code>
+              class. This is the first item's accordion body.
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+              4. Trade-in vehicle
+            </button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <div class="accordion-collapse-name" data-bs-target="#flush-collapseFour"
+                data-bs-toggle="collapse">
+                <span class="accordion-collapse-name_wrap">4. Trade-in vehicle</span>
+                <span class="accordion-collapse-name_close">-</span>
+              </div><br>
+              Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code>
+              class. This is the first item's accordion body.
+            </div>
+
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+              5. Home Delivery
+            </button>
+          </h2>
+          <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <div class="accordion-collapse-name" data-bs-target="#flush-collapseFive" 
+                data-bs-toggle="collapse">
+                <span class="accordion-collapse-name_wrap">5. Home Delivery</span>
+                <span class="accordion-collapse-name_close">-</span>
+              </div><br>
+              Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code>
+              class. This is the first item's accordion body.
+            </div>
+
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingSix">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+              6. Right of return
+            </button>
+          </h2>
+          <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <div class="accordion-collapse-name" data-bs-target="#flush-collapseSix" 
+                data-bs-toggle="collapse">
+                <span class="accordion-collapse-name_wrap">6. Right of return</span>
+                <span class="accordion-collapse-name_close">-</span>
+              </div><br>
+              Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code>
+              class. This is the first item's accordion body.
+            </div>
+
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingSeven">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+              7. Written form
+            </button>
+          </h2>
+          <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <div class="accordion-collapse-name" data-bs-target="#flush-collapseSeven" 
+                data-bs-toggle="collapse">
+                <span class="accordion-collapse-name_wrap">7. Written form</span>
+                <span class="accordion-collapse-name_close">-</span>
+              </div><br>
+              Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code>
+              class. This is the first item's accordion body.
+            </div>
+
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingEight">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+              8. Applicable law and place of jurisdiction
+            </button>
+          </h2>
+          <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <div class="accordion-collapse-name" data-bs-target="#flush-collapseEight"
+                data-bs-toggle="collapse">
+                <span class="accordion-collapse-name_wrap">8. Applicable law and place of jurisdiction</span>
+                <span class="accordion-collapse-name_close">-</span>
+              </div><br>
+              Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code>
+              class. This is the first item's accordion body.
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4 bottom-img-wrap">
+          <div class="footer-img">
+            <img src="./img/header-logo.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 bottom-btns-wrap">
+          <div class="footer-btns">
+            <ul class="footer-list-wrap">
+              <li class="list-item"><a class="list-item" href="#">Inventory</a></li>
+              <li class="list-item"><a class="list-item" href="#">Financing</a></li>
+              <li class="list-item"><a class="list-item" href="#">Contacts</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 footer-socials-wrap">
+          <ul class="footer-socials">  
+        <li><a class="list-item" href="#"><img src="./img/facebook.png" alt=""></a></li> 
+        <li><a class="list-item" href="#"><img src="./img/instagram.png" alt=""></a></li> 
+        </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/validator@latest/validator.min.js"></script>
+  <!-- local -->
+  <script src="./script.js"></script>
+  <script src="./validator.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
