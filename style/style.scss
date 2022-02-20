@@ -11,7 +11,7 @@ body {
 
 // *************************** head ***************************
 .header-wrap {
-    height: 688px;
+    min-height: 688px;
     background-image: url("../../img/head-bg.png");
     background-size: cover;
     background-position: center;
@@ -132,7 +132,8 @@ body {
                 justify-content: center;
             }
 
-            margin-top: 85px;
+            padding-top: 85px;
+            padding-bottom: 20px;
 
             input {
                 &:hover {
@@ -168,8 +169,8 @@ body {
 // *************************** product ***************************
 
 .product-wrap {
-    margin-top: 98px;
-
+    padding-top: 98px;
+    padding-bottom: 120px;
     .product__name {
         .container {
             text-align: center;
@@ -670,8 +671,8 @@ body {
 
     }
 
-    margin-top: 120px;
-    height: 180px;
+
+    min-height: 180px;
     background: #000000;
     box-shadow: 0px 0px 18px rgba(68, 68, 68, 0.09);
 
@@ -913,20 +914,25 @@ body {
 // *************************** question ***************************
 
 .footer {
-    @media (max-width: 610px) {
+    @media (max-width: 685px) {
         height: auto
     }
 
-    height: 121px;
+    min-height: 121px;
     background: #000000;
-
+    .footer-elem-wrap{
+        @media (max-width: 685px) {
+            display: flex;
+            flex-direction: column;
+        }
+    }
     .footer-img {
         margin-top: 37px;
     }
 
     .footer-btns {
         .footer-list-wrap {
-            @media (max-width: 600px) {
+            @media (max-width: 685px) {
                 padding-left: 0px;
             }
 
@@ -960,7 +966,7 @@ body {
     }
 
     .footer-socials-wrap {
-        @media (max-width: 600px) {
+        @media (max-width: 685px) {
             display: flex;
             margin-top: 0px;
             padding-bottom: 30px;
