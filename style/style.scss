@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-    max-width: 1240px
+    max-width: 1240px;
 }
 
 // *************************** head ***************************
@@ -209,7 +209,9 @@ body {
 
                 &:hover {
                     border: 1px solid #DF4E3C;
-
+                .btn-name{
+                    font-weight: 700;
+                }
                 }
 
                 .wrap {

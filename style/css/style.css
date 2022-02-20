@@ -124,6 +124,8 @@ body {
       display: flex; }
       .product-wrap .product__items .product__items-filters .dropdown:hover {
         border: 1px solid #DF4E3C; }
+        .product-wrap .product__items .product__items-filters .dropdown:hover .btn-name {
+          font-weight: 700; }
       .product-wrap .product__items .product__items-filters .dropdown .wrap {
         display: flex;
         width: 100%; }
