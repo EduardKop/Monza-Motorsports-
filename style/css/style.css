@@ -136,7 +136,8 @@ body {
       .product-wrap .product__items .product__items-filters .dropdown:hover {
         border: 1px solid #DF4E3C; }
         .product-wrap .product__items .product__items-filters .dropdown:hover .btn-name {
-          font-weight: 700; }
+          font-weight: 700;
+          color: #000000; }
       .product-wrap .product__items .product__items-filters .dropdown .wrap {
         display: flex;
         width: 100%; }
@@ -565,6 +566,7 @@ body {
         align-content: center;
         align-items: center; } }
     .subscribe .subscribe-btn .email__btn-wrapper .email__btn {
+      color: #000000;
       height: 54px;
       background: #F8F8F8;
       border-radius: 15px;
