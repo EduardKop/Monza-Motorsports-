@@ -500,6 +500,9 @@ body {
     @media (max-width: 1250px) {
       .subscribe .subscribe-input {
         max-width: 410px; } }
+    @media (max-width: 1050px) {
+      .subscribe .subscribe-input {
+        max-width: 280px; } }
     .subscribe .subscribe-input .input-elem .email-incorect-text {
       color: #DF4E3C;
       margin-left: 16px;
@@ -561,6 +564,9 @@ body {
       @media (max-width: 1250px) {
         .subscribe .subscribe-input .input-elem .email-input {
           width: 400px; } }
+      @media (max-width: 1050px) {
+        .subscribe .subscribe-input .input-elem .email-input {
+          max-width: 270px; } }
       @media (max-width: 990px) {
         .subscribe .subscribe-input .input-elem .email-input {
           width: 220px; } }
@@ -615,7 +621,10 @@ body {
     align-items: center; }
     @media (max-width: 800px) {
       .question .accordion {
-        align-items: normal; } }
+        align-items: center; } }
+    @media (max-width: 500px) {
+      .question .accordion {
+        align-items: stretch; } }
     .question .accordion .accordion-button {
       color: black;
       background-color: transparent; }

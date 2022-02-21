@@ -833,12 +833,13 @@ body {
             width: 230px;
            
         }
-           
+        
         @media (max-width: 1250px) {
             max-width: 410px;
-
-           
         }
+        @media (max-width: 1050px) {
+            max-width: 280px;
+        } 
         .input-elem {
             .email-incorect-text {
                 color: #DF4E3C;
@@ -848,6 +849,7 @@ body {
                 line-height: 26px;
                 letter-spacing: -0.523077px;
                 display: none;
+                
             }
 
             .email-input-success {
@@ -917,7 +919,10 @@ body {
                     width: 400px;
 
                 }
+                @media (max-width: 1050px) {
+                    max-width: 270px;
 
+                }
                 @media (max-width: 990px) {
                     width: 220px;
 
@@ -1001,9 +1006,11 @@ body {
         align-items: center;
 
         @media (max-width: 800px) {
-            align-items: normal
+            align-items: center
         }
-
+        @media (max-width: 500px) {
+            align-items:stretch
+        }
         .accordion-button {
             color: black;
             background-color: transparent;
