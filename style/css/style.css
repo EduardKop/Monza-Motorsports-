@@ -653,6 +653,9 @@ body {
     .footer {
       height: auto; } }
   @media (max-width: 685px) {
+    .footer .footer-elem-wrap .bottom-btns-wrap {
+      display: flex; } }
+  @media (max-width: 685px) {
     .footer .footer-elem-wrap {
       display: flex;
       flex-direction: column; } }

@@ -1061,6 +1061,11 @@ body {
     min-height: 121px;
     background: #000000;
     .footer-elem-wrap{
+        .bottom-btns-wrap{
+            @media (max-width: 685px) {
+                display: flex;
+            }
+        }
         @media (max-width: 685px) {
             display: flex;
                 flex-direction: column;
