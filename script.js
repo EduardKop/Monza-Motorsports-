@@ -130,7 +130,7 @@ const dropdowns = document.querySelectorAll('.dropdown-content');
 
 wrap.forEach((e)=>{
     e.addEventListener('click',()=>{ 
-
+        event.preventDefault()
         e.parentNode.parentNode.children[1].classList.toggle('show')
     })
 }) 

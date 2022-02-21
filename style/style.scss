@@ -55,6 +55,9 @@ body {
 
                     color: $color-primary-200;
                     font-size: 15px;
+                    &:hover{
+                        color: #C4C4C4;
+                    }
                 }
             }
         }
@@ -62,7 +65,10 @@ body {
 
     .header-wrap-info {
         margin-top: 136px;
+        @media (max-width: 500px) {
+            margin-top: 80px;
 
+        }
         .header-wrap-info__title {
             h1 {
                 font-weight: 700;
@@ -86,6 +92,11 @@ body {
 
             @media (max-width: 1200px) {
                 padding-right: 500px;
+                .description-item {
+                    &:nth-child(2) {
+                        margin-left: 40px;
+                    }
+                }
             }
 
             @media (max-width: 1000px) {
@@ -97,7 +108,7 @@ body {
                     }
                 }
             }
-
+           
             @media (max-width: 750px) {
                 padding-right: 150px;
 
@@ -107,7 +118,15 @@ body {
                     }
                 }
             }
+            @media (max-width: 500px) {
+                padding-right: 0px;
 
+                .description-item {
+                    &:nth-child(2) {
+                        margin-left: 30px;
+                    }
+                }
+            }
             @media (max-width: 576px) {
                 display: flex;
                 flex-direction: column;
@@ -134,10 +153,10 @@ body {
                 padding-top: 50px;
             }            
 
-            padding-top: 85px;
+            padding-top: 75px;
             padding-bottom: 20px;
 
-            input {
+            button {
                 &:hover {
                     background-color: #F8F8F8;
                     color: black;
@@ -552,6 +571,8 @@ body {
             }
 
             .second-filter-sort {
+                align-items: center;
+
                 .dropdown {
                     .btn-secondary {
                         padding-top: 0px;
@@ -605,14 +626,14 @@ body {
                 display: flex;
                 justify-content: flex-end;
 
-                p {
-                    margin-top: 5px;
+                span {
                     margin-right: 17px;
+
                 }
 
                 img {
                     height: 13px;
-                    margin-top: 10px;
+
                 }
 
             }
@@ -635,12 +656,14 @@ body {
                         margin-bottom: 10px;
                         margin-left: 15px;
                         background: #FFFFFF;
-                        box-shadow: 0px 0px 18px rgba(68, 68, 68, 0.09);
                         max-width: 295px;
                         display: flex;
                         flex-direction: column;
                         align-items: center;
+                        .items-cards__elem-content{
+                            box-shadow: 0px 0px 18px rgba(68, 68, 68, 0.09);
 
+                        }
                         .elem-content-img {
                             position: relative;
                             text-align: center;
@@ -779,7 +802,9 @@ body {
         .textInfo-container {
             display: flex;
             flex-direction: column;
-            margin-top: 40px;
+           h3{
+            padding-top: 40px;
+           }
 
             .textInfo-header {
                 font-weight: 600;
@@ -796,12 +821,17 @@ body {
 
     .subscribe-input {
         margin-top: 63px;
-
+        
         @media (max-width: 990px) {
             width: 230px;
-
+           
         }
+           
+        @media (max-width: 1250px) {
+            max-width: 410px;
 
+           
+        }
         .input-elem {
             .email-incorect-text {
                 color: #DF4E3C;
@@ -1024,7 +1054,9 @@ body {
         }
     }
     .footer-img {
-        margin-top: 37px;
+       img{
+        padding-top: 37px;
+       }
     }
 
     .footer-btns {
@@ -1041,6 +1073,9 @@ body {
                 margin-right: 20px;
                 list-style-type: none;
                 text-decoration: none;
+                &:hover{
+                    color: #C4C4C4;
+                }
             }
         }
     }
@@ -1048,9 +1083,10 @@ body {
     .footer-socials {
         display: flex;
         justify-content: flex-end;
-        margin-top: 37px;
+        
         margin-left: 0px;
         padding-left: 0px;
+        
         li {
             list-style-type: none;
         }
@@ -1067,7 +1103,12 @@ body {
         @media (max-width: 685px) {
             display: flex;
             margin-top: 0px;
-            padding-bottom: 30px;
+            ul{
+                padding-bottom: 30px;
+                @media (max-width: 414px) {
+                    padding-top: 37px;
+                }
+            }
         }
     }
 
