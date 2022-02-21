@@ -1,9 +1,3 @@
-
-
-
-
-
-
     const filterBtn = document.querySelector('.sorting-btn');//sort button above cars element
     const carCards = document.querySelectorAll('.items-cards__elem');//car card
     let sortBtnTextValue = document.querySelector('.sorting-btn-text')
@@ -78,6 +72,7 @@ accordionBtns.forEach((e)=>{ //hover question element if click
 filterBtn.addEventListener('click',()=>{sorting()})
 
 function sorting(){
+    
 // console.log(yearValue,warnValue,modelValue,trimValue,mileageValue)
 sortedCard(yearValue,makeValue,modelValue,trimValue,mileageValue)
 let allActivElements = []
@@ -85,9 +80,15 @@ carCards.forEach((elem)=>{
     if(elem.style.display != "none"){
         allActivElements.push(elem)
         sortBtnTextValue.innerHTML=  `${allActivElements.length} cars`
+        console.log(allActivElements)
+        console.log(sortBtnTextValue)
+} if(allActivElements.length == 0) {
+    sortBtnTextValue.innerHTML=  `0 cars`
 
 }
 })
+console.log(allActivElements)
+
 }
 
 function sortedCard(year,make,model,trim,milage) {
