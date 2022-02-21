@@ -660,7 +660,8 @@ body {
     padding-top: 37px; }
   .footer .footer-btns .footer-list-wrap {
     margin-top: 37px;
-    display: flex; }
+    display: flex;
+    justify-content: center; }
     @media (max-width: 685px) {
       .footer .footer-btns .footer-list-wrap {
         padding-left: 0px; } }
