@@ -224,7 +224,12 @@ body {
                 border-radius: 15px;
                 cursor: pointer;
                 display: flex;
-
+                @media (max-width: 414px) {
+                    color: #000000;
+                    .btn-name{
+                        color: #000000;
+                    }
+                }
                 &:hover {
                     border: 1px solid #DF4E3C;
                 .btn-name{
@@ -247,6 +252,7 @@ body {
                         justify-content: space-between;
                         align-items: center;
                         color:#000000;
+
                         .arrow {
                             width: 8px;
                             height: 8px;
@@ -1085,7 +1091,7 @@ body {
     .footer-socials {
         display: flex;
         justify-content: flex-end;
-        
+        padding-top: 35px;
         margin-left: 0px;
         padding-left: 0px;
         

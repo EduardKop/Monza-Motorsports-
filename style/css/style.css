@@ -133,6 +133,11 @@ body {
       border-radius: 15px;
       cursor: pointer;
       display: flex; }
+      @media (max-width: 414px) {
+        .product-wrap .product__items .product__items-filters .dropdown {
+          color: #000000; }
+          .product-wrap .product__items .product__items-filters .dropdown .btn-name {
+            color: #000000; } }
       .product-wrap .product__items .product__items-filters .dropdown:hover {
         border: 1px solid #DF4E3C; }
         .product-wrap .product__items .product__items-filters .dropdown:hover .btn-name {
@@ -663,6 +668,7 @@ body {
   .footer .footer-socials {
     display: flex;
     justify-content: flex-end;
+    padding-top: 35px;
     margin-left: 0px;
     padding-left: 0px; }
     .footer .footer-socials li {
