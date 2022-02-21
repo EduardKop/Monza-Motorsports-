@@ -149,7 +149,8 @@ body {
           border-color: transparent;
           background-color: transparent;
           justify-content: space-between;
-          align-items: center; }
+          align-items: center;
+          color: #000000; }
           .product-wrap .product__items .product__items-filters .dropdown .wrap .dropbtn .arrow {
             width: 8px;
             height: 8px;
